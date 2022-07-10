@@ -92,3 +92,31 @@ Content-Type: application/json
 ###
 
 DELETE http://127.0.0.1:10001/movies/21
+
+###
+
+POST http://127.0.0.1:10001/users/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "test",
+  "password": "test",
+  "role": "test"
+}
+
+###
+
+PUT http://127.0.0.1:10001/genres/19
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "test genre"
+}
+
+###
+
+GET http://127.0.0.1:10001/genres/19
+
+###
